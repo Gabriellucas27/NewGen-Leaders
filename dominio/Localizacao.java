@@ -4,7 +4,7 @@ public class Localizacao {
 
     //ATRIBUTOS:
 
-    private int codigo;
+    private int codigo_loc;
     private String rua;
     private int numero;
     private String bairro;
@@ -30,12 +30,12 @@ public class Localizacao {
 
     // GETS E SETS:
 
-    public int getCodigo() {
-        return codigo;
+    public int getCodigo_loc() {
+        return codigo_loc;
     }
 
-    public void setCodigo(int codigo) {
-        this.codigo = codigo;
+    public void setCodigo_loc(int codigo_loc) {
+        this.codigo_loc = codigo_loc;
     }
 
     public String getRua() {
