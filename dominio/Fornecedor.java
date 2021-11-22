@@ -10,15 +10,15 @@ public class Fornecedor {
 
 
     //METODOS:
-    void cadastrar_fornecedor(Fornecedor fornecedor){
+    public void cadastrar_fornecedor(Fornecedor fornecedor){
 
     }
 
-    void editar_fornecedor(int codigo){ // usamos o codigo para identificar o fornecedor.
+    public void editar_fornecedor(int codigo){ // usamos o codigo para identificar o fornecedor.
 
     }
 
-    void excluir_fornecedor(int codigo){
+    public void excluir_fornecedor(int codigo){
 
     }
 
