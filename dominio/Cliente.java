@@ -6,6 +6,7 @@ public class Cliente {
 
     private int codigo_cliente;
     private String nome;
+    private int idade;
     private String telefone;
     private String cpf;
     private String rg;
@@ -75,6 +76,16 @@ public class Cliente {
     public void setEndereco(String endereco) {
         this.endereco = endereco;
     }
+
+    public int getIdade() {
+        return idade;
+    }
+
+    public void setIdade(int idade) {
+        this.idade = idade;
+    }
+
+    
 
     
 }
