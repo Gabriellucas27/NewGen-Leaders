@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Home</title>
+
+	<!-- Conexão com as pastas do materialize e a pagina de css -->
+	<link rel="stylesheet" href="materialize/css/materialize.css">
+	<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+	<link rel="stylesheet" href="style/style.css">
+
+</head>
+<body>
+
+	<!-- menu -->
+	<nav>
+    <div class="nav-wrapper">
+      <a href="#!" class="brand-logo">Logo</a>
+      <ul class="right hide-on-med-and-down">
+        <li><a href="#" onclick="toggleModal();"><i class="material-icons left">person</i>Entrar</a></li>
+      </ul>
+    </div>
+  </nav>
+	
+	<!-- Estrutura da parte superior do modal -->
+	<section class="infomodal">
+		<div id="modal3" class="modal">
+			<div class="modal-content">
+				<h4 id="info-modal-heading" class="center-align">Login</h4>
+				
+				<div id="info-modal-content" class="row">
+					<form class="col s12">
+
+						<div class="row">
+							<div class="input-field col s12">
+          			<input id="email" type="email" class="validate">
+          			<label for="email">E-mail</label>
+        			</div>
+						</div>
+
+						<div class="row">
+        			<div class="input-field col s12">
+          			<input id="password" type="password" class="validate">
+          			<label for="password">Senha</label>
+        			</div>
+      			</div>
+
+					</form>
+				</div>
+
+			</div>
+
+		<!-- Estrutura da parte inferior do modal -->
+			<div class="modal-footer">
+				<a href="#" class="modal-close waves-effect btn-flat orange">Cancelar</a>
+				<a href="#" class="modal-close waves-effect btn-flat orange">Entrar</a>
+				<p>Novo usuário?<a href="cadastro.html">Cadastre-se</a></p>
+			</div>
+		</div>
+	</section>
+
+</body>
+
+	<!-- Conexão com a pasta do materialize de js,conexão do jquery e connexão com a pagina de scripts -->
+	<script 
+	src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js" integrity="sha512-894YE6QWD5I59HgZOGReFYm4dnWc1Qt5NtvYSaNcOP+u1T9qYdvdihz0PPSiiqn/+/3e7Jo4EaG7TubfWGUrMQ==" crossorigin="anonymous" referrerpolicy="no-referrer">
+	</script>
+	<script src="materialize/js/materialize.js"></script>
+	<script src="javascript-jquery/script.js"></script>
+
+</html>
